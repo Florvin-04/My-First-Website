@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* border-style: solid; */
+    position: relative;
+}
+
+
+
+.header-btn{
+    display: flex;
+    /* border-style:solid ; */
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.header-btn a{
+    /* border-style:solid ; */
+    text-decoration: none;
+    color:black;
+    
+    padding: 0px 20px;
+    font-size: 25px;
+}
+
+.header-btn a:hover{
+    color:blue;
+    /* background-color: blue; */
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-right: auto;
+    
+}
+h1{
+    text-align: center;
+}
+
+.left-cont{
+    float: left;
+    width: 50%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+.right-cont{
+    float: left;
+    padding: 20px;
+    width: 50%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+.mid-cont{
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #f8b7b7;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+.last-cont{
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #585757;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  .sec::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+  /* FORM CSS */
+
+
+
+
+
+
+
+
+
+
+  
